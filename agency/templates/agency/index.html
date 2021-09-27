@@ -1,4 +1,6 @@
-       {% extends 'agency/base.html' %}
+    {% extends 'agency/base.html' %}
+    {% load static %}
+
        {% block content %}
        <!--Slider Start-->
         <section class="sliderSection">
@@ -7,7 +9,7 @@
                     <div class="tp-banner">
                         <ul>
                             <li data-transition="cube" data-slotamount="7" data-masterspeed="1000" >
-                                <img src="images/slider/1.jpg"  alt="">
+                                <img src="{% static 'images/slider/1.jpg' %}"  alt="">
                                 <div class="tp-caption sfb"
                                      data-x="left"
                                      data-y="center"
@@ -51,7 +53,7 @@
                                 </div>
                             </li>
                             <li data-transition="cube" data-slotamount="7" data-masterspeed="1000" >
-                                <img src="images/slider/2.jpg"  alt="">
+                                <img src="{% static 'images/slider/2.jpg' %}"  alt="">
                                 <div class="tp-caption sfb"
                                      data-x="left"
                                      data-y="center"
@@ -95,7 +97,7 @@
                                 </div>
                             </li>
                             <li data-transition="cube" data-slotamount="7" data-masterspeed="1000" >
-                                <img src="images/slider/3.jpg"  alt="">
+                                <img src="{% static 'images/slider/3.jpg' %}"  alt="">
                                 <div class="tp-caption sfb"
                                      data-x="left"
                                      data-y="center"
@@ -200,7 +202,7 @@
             </div>
             <div class="welclean">
                 <div class="welimg wow fadeInUp" data-wow-duration="700ms" data-wow-delay="300ms">
-                    <img src="images/home1/welcome.jpg" alt="">
+                    <img src="{% static 'images/home1/welcome.jpg' %}" alt="">
                 </div>
                 <div class="container-fluid">
                     <div class="row">
@@ -290,11 +292,11 @@
                         <div class="col-lg-3 col-sm-6 col-xs-12 noPadding  text-center mix flooring exterior others">
                             <div class="singportfolio">
                                 <div class="poriImg">
-                                    <img src="images/portfolio/4c/1.jpg" alt="">
+                                    <img src="{% static 'images/portfolio/4c/1.jpg' %}" alt="">
                                 </div>
                                 <div class="hoverportfolio">
                                     <div class="hoverportfolioin">
-                                        <a href="images/portfolio/4c/1.jpg" class="popUp"><i class="icon-Search"></i></a>
+                                        <a href="{% static 'images/portfolio/4c/1.jpg' %}" class="popUp"><i class="icon-Search"></i></a>
                                         <h3><a href="gallery_single.html">Sparkling Colin</a></h3>
                                         <p>Flooring</p>
                                     </div>
@@ -304,11 +306,11 @@
                         <div class="col-lg-3 col-sm-6 col-xs-12 noPadding  text-center mix commercial streaming">
                             <div class="singportfolio">
                                 <div class="poriImg">
-                                    <img src="images/portfolio/4c/2.jpg" alt="">
+                                    <img src="{% static 'images/portfolio/4c/2.jpg' %}" alt="">
                                 </div>
                                 <div class="hoverportfolio">
                                     <div class="hoverportfolioin">
-                                        <a href="images/portfolio/4c/2.jpg" class="popUp"><i class="icon-Search"></i></a>
+                                        <a href="{% static 'images/portfolio/4c/2.jpg' %}" class="popUp"><i class="icon-Search"></i></a>
                                         <h3><a href="gallery_single.html">Sparkling Colin</a></h3>
                                         <p>Flooring</p>
                                     </div>
@@ -318,11 +320,11 @@
                         <div class="col-lg-3 col-sm-6 col-xs-12 noPadding  text-center mix flooring exterior others">
                             <div class="singportfolio">
                                 <div class="poriImg">
-                                    <img src="images/portfolio/4c/3.jpg" alt="">
+                                    <img src="{% static 'images/portfolio/4c/3.jpg' %}" alt="">
                                 </div>
                                 <div class="hoverportfolio">
                                     <div class="hoverportfolioin">
-                                        <a href="images/portfolio/4c/3.jpg" class="popUp"><i class="icon-Search"></i></a>
+                                        <a href="{% static 'images/portfolio/4c/3.jpg' %}" class="popUp"><i class="icon-Search"></i></a>
                                         <h3><a href="gallery_single.html">Sparkling Colin</a></h3>
                                         <p>Flooring</p>
                                     </div>
@@ -332,11 +334,11 @@
                         <div class="col-lg-3 col-sm-6 col-xs-12 noPadding  text-center mix commercial streaming">
                             <div class="singportfolio">
                                 <div class="poriImg">
-                                    <img src="images/portfolio/4c/4.jpg" alt="">
+                                    <img src="{% static 'images/portfolio/4c/4.jpg' %}" alt="">
                                 </div>
                                 <div class="hoverportfolio">
                                     <div class="hoverportfolioin">
-                                        <a href="images/portfolio/4c/4.jpg" class="popUp"><i class="icon-Search"></i></a>
+                                        <a href="{% static 'images/portfolio/4c/4.jpg' %}" class="popUp"><i class="icon-Search"></i></a>
                                         <h3><a href="gallery_single.html">Sparkling Colin</a></h3>
                                         <p>Flooring</p>
                                     </div>
@@ -346,11 +348,11 @@
                         <div class="col-lg-3 col-sm-6 col-xs-12 noPadding  text-center mix flooring exterior others">
                             <div class="singportfolio">
                                 <div class="poriImg">
-                                    <img src="images/portfolio/4c/5.jpg" alt="">
+                                    <img src="{% static 'images/portfolio/4c/5.jpg' %}" alt="">
                                 </div>
                                 <div class="hoverportfolio">
                                     <div class="hoverportfolioin">
-                                        <a href="images/portfolio/4c/5.jpg" class="popUp"><i class="icon-Search"></i></a>
+                                        <a href="{% static 'images/portfolio/4c/5.jpg' %}" class="popUp"><i class="icon-Search"></i></a>
                                         <h3><a href="gallery_single.html">Sparkling Colin</a></h3>
                                         <p>Flooring</p>
                                     </div>
@@ -360,11 +362,11 @@
                         <div class="col-lg-3 col-sm-6 col-xs-12 noPadding  text-center mix commercial streaming">
                             <div class="singportfolio">
                                 <div class="poriImg">
-                                    <img src="images/portfolio/4c/6.jpg" alt="">
+                                    <img src="{% static 'images/portfolio/4c/6.jpg' %}" alt="">
                                 </div>
                                 <div class="hoverportfolio">
                                     <div class="hoverportfolioin">
-                                        <a href="images/portfolio/4c/6.jpg" class="popUp"><i class="icon-Search"></i></a>
+                                        <a href="{% static 'images/portfolio/4c/6.jpg' %}" class="popUp"><i class="icon-Search"></i></a>
                                         <h3><a href="gallery_single.html">Sparkling Colin</a></h3>
                                         <p>Flooring</p>
                                     </div>
@@ -374,11 +376,11 @@
                         <div class="col-lg-3 col-sm-6 col-xs-12 noPadding  text-center mix flooring exterior others">
                             <div class="singportfolio">
                                 <div class="poriImg">
-                                    <img src="images/portfolio/4c/7.jpg" alt="">
+                                    <img src="{% static 'images/portfolio/4c/7.jpg' %}" alt="">
                                 </div>
                                 <div class="hoverportfolio">
                                     <div class="hoverportfolioin">
-                                        <a href="images/portfolio/4c/7.jpg" class="popUp"><i class="icon-Search"></i></a>
+                                        <a href="{% static 'images/portfolio/4c/7.jpg' %}" class="popUp"><i class="icon-Search"></i></a>
                                         <h3><a href="gallery_single.html">Sparkling Colin</a></h3>
                                         <p>Flooring</p>
                                     </div>
@@ -388,11 +390,11 @@
                         <div class="col-lg-3 col-sm-6 col-xs-12 noPadding  text-center mix commercial streaming">
                             <div class="singportfolio">
                                 <div class="poriImg">
-                                    <img src="images/portfolio/4c/8.jpg" alt="">
+                                    <img src="{% static 'images/portfolio/4c/8.jpg' %}" alt="">
                                 </div>
                                 <div class="hoverportfolio">
                                     <div class="hoverportfolioin">
-                                        <a href="images/portfolio/4c/8.jpg" class="popUp"><i class="icon-Search"></i></a>
+                                        <a href="{% static 'images/portfolio/4c/8.jpg' %}" class="popUp"><i class="icon-Search"></i></a>
                                         <h3><a href="gallery_single.html">Sparkling Colin</a></h3>
                                         <p>Flooring</p>
                                     </div>
@@ -410,7 +412,7 @@
                 <div class="row">
                     <div class="col-lg-3 col-sm-12">
                         <div class="logo2call">
-                            <img src="images/logo2.png" alt="">
+                            <img src="{% static 'images/logo2.png'  %}" alt="">
                         </div>
                     </div>
                     <div class="col-lg-6 col-sm-12 noPaddingLeft">
@@ -567,7 +569,7 @@
                     <div class="col-lg-12 text-center" id="testcarohome1">
                         <div class="singleTest">
                             <div class="testimg">
-                                <img src="images/author/test1.jpg" alt="">
+                                <img src="{% static 'images/author/test1.jpg' %}" alt="">
                             </div>
                             <div class="testCont">
                                 <p>
@@ -583,7 +585,7 @@
                         </div>
                         <div class="singleTest">
                             <div class="testimg">
-                                <img src="images/author/test1.jpg" alt="">
+                                <img src="{% static 'images/author/test1.jpg' %}" alt="">
                             </div>
                             <div class="testCont">
                                 <p>
@@ -599,7 +601,7 @@
                         </div>
                         <div class="singleTest">
                             <div class="testimg">
-                                <img src="images/author/test1.jpg" alt="">
+                                <img src="{% static 'images/author/test1.jpg' %}" alt="">
                             </div>
                             <div class="testCont">
                                 <p>
@@ -639,7 +641,7 @@
                     <div class="col-lg-12 teamWrap">
                         <div class="singleTeam">
                             <div class="singtemimg">
-                                <img src="images/team/t3.jpg" alt="">
+                                <img src="{% static 'images/team/t3.jpg' %}" alt="">
                             </div>
                             <div class="sintemDec">
                                 <h3>Mark Rowan</h3>
@@ -648,7 +650,7 @@
                         </div>
                         <div class="singleTeam middelTeamimg">
                             <div class="singtemimg">
-                                <img src="images/team/t2.jpg" alt="">
+                                <img src="{% static 'images/team/t2.jpg' %}" alt="">
                             </div>
                             <div class="sintemDec">
                                 <h3>Mark Rowan</h3>
@@ -657,7 +659,7 @@
                         </div>
                         <div class="singleTeam">
                             <div class="singtemimg">
-                                <img src="images/team/t1.jpg" alt="">
+                                <img src="{% static 'images/team/t1.jpg' %}" alt="">
                             </div>
                             <div class="sintemDec">
                                 <h3>Mark Rowan</h3>
@@ -913,28 +915,28 @@
                                     <div class="col-sm-6 noPadding borderBottomD borderRightD">
                                         <div class="singleClient">
                                             <a href="#">
-                                                <img src="images/client/1.png" alt="">
+                                                <img src="{% static 'images/client/1.png'  %}" alt="">
                                             </a>
                                         </div>
                                     </div>
                                     <div class="col-sm-6 noPadding borderBottomD">
                                         <div class="singleClient">
                                             <a href="#">
-                                                <img src="images/client/2.png" alt="">
+                                                <img src="{% static 'images/client/2.png'  %}" alt="">
                                             </a>
                                         </div>
                                     </div>
                                     <div class="col-sm-6 noPadding borderRightD">
                                         <div class="singleClient">
                                             <a href="#">
-                                                <img src="images/client/3.png" alt="">
+                                                <img src="{% static 'images/client/3.png'  %}" alt="">
                                             </a>
                                         </div>
                                     </div>
                                     <div class="col-sm-6 noPadding">
                                         <div class="singleClient">
                                             <a href="#">
-                                                <img src="images/client/4.png" alt="">
+                                                <img src="{% static 'images/client/4.png'  %}" alt="">
                                             </a>
                                         </div>
                                     </div>
